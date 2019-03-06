@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PI Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Willkommen zum PI-Test</h1>
+        <form id="pi-test-form">
+            <div class="questions" id="question-1">
+                <p class="question-text">Was sind die 3 Hauptkomponenten eines PI-Projektes?</p>
+                <label for="q1a">
+                    <input type="radio" id="q1a" value="q1a" name="0">
+                    Sendersystem, SAP PI und Empfängersystem
+                </label>
+                <label for="q1b">
+                    <input type="radio" id="q1b" value="q1b" name="0">
+                    SAP PI, SAP PO und SAP BPM
+                </label>
+                <label for="q1c">
+                    <input type="radio" id="q1c" value="q1c" name="0">
+                    Computer 1, Computer 2 und Parser
+                </label>
+                <p class="answers" id="a1"></p>
+            </div>
+
+            <div class="questions" id="question-2">
+                <p class="question-text">Was ist ein Parser?</p>
+                <label for="q2a">
+                    <input type="radio" id="q2a" value="q2a" name="1">
+                    Eine SAP-PI-Komponente
+                </label>
+                <label for="q2b">
+                    <input type="radio" id="q2b" value="q2b" name="1">
+                    Ein schöner Nachname
+                </label>
+                <label for="q2c">
+                    <input type="radio" id="q2c" value="q2c" name="1">
+                    Ein Übersetzer; zum Beispiel, um JSON in XML umzuwandeln
+                </label>
+                <p class="answers" id="a2"></p>
+            </div>
+
+            <div class="questions" id="question-3">
+                <p class="question-text">Wofür stehen die Buchstaben PI?</p>
+                <label for="q3a">
+                    <input type="radio" id="q3a" value="q3a" name="2">
+                    Process Infrastructure
+                </label>
+                <label for="q3b">
+                    <input type="radio" id="q3b" value="q3b" name="2">
+                    Process Integration
+                </label>
+                <label for="q3c">
+                    <input type="radio" id="q3c" value="q3c" name="2">
+                    Parser Integration
+                </label>
+                <p class="answers" id="a3"></p>
+            </div>
+
+            <div class="questions" id="question-4">
+                <p class="question-text">Warum ist PI besonders wichtig?</p>
+                <label for="q4a">
+                    <input type="radio" id="q4a" value="q4a" name="3">
+                    SAP PI ermöglicht es, SAP- und Non-SAP-Systeme miteinander zu verbinden
+                </label>
+                <label for="q4b">
+                    <input type="radio" id="q4b" value="q4b" name="3">
+                    SAP PI macht den Datenaustausch unmöglich
+                </label>
+                <label for="q4c">
+                    <input type="radio" id="q4c" value="q4c" name="3">
+                    SAP PI ist einfach Marketing von der SAP, um mehr Geld zu bekommen
+                </label>
+                <p class="answers" id="a4"></p>
+            </div>
+
+            <div class="questions" id="question-5">
+                <p class="question-text">Ist XML überall vorhanden?</p>
+                <label for="q5a">
+                    <input type="radio" id="q5a" value="q5a" name="4">
+                    Nein, es gibt andere Formate zum Datenaustausch aber XML ist gut geeignet wegen Datenstruktur und Metadaten
+                </label>
+                <label for="q5b">
+                    <input type="radio" id="q5b" value="q5b" name="4">
+                    Ja, XML ist überall vorhanden
+                </label>
+                <label for="q5c">
+                    <input type="radio" id="q5c" value="q5c" name="4">
+                    Nein, XML ist alt und wird nicht bevorzugt
+                </label>
+                <p class="answers" id="a5"></p>
+            </div>
+
+            <div class="questions" id="question-6">
+                <p class="question-text">Was wäre ein Beispiel von XML?</p>
+                <label for="q6a">
+                    <input type="radio" id="q6a" value="q6a" name="5">
+                    <code>&lt;Produktname&gt; Schokolade &lt;/Produktname&gt;</code>
+                </label>
+                <label for="q6b">
+                    <input type="radio" id="q6b" value="q6b" name="5">
+                    <code>print("Schokolade");</code>
+                </label>
+                <label for="q6c">
+                    <input type="radio" id="q6c" value="q6c" name="5">
+                    <code>{ "produktName" : "Schokolade" }</code>
+                </label>
+                <p class="answers" id="a6"></p>
+            </div>
+
+            <div class="questions" id="question-7">
+                <p class="question-text">Was ist SOAP?</p>
+                <label for="q7a">
+                    <input type="radio" id="q7a" value="q7a" name="6">
+                    Das Protokoll von XML
+                </label>
+                <label for="q7b">
+                    <input type="radio" id="q7b" value="q7b" name="6">
+                    Ein Protokoll, um Nachrichten zwischen Systemen zu senden und zu empfangen
+                </label>
+                <label for="q7c">
+                    <input type="radio" id="q7c" value="q7c" name="6">
+                    Eine Seifenmarke
+                </label>
+                <p class="answers" id="a7"></p>
+            </div>
+
+            <div class="questions" id="question-8">
+                <p class="question-text">Was braucht eine SOAP-Nachricht unbedingt zu enthalten?</p>
+                <label for="q8a">
+                    <input type="radio" id="q8a" value="q8a" name="7">
+                    Ein Protokoll
+                </label>
+                <label for="q8b">
+                    <input type="radio" id="q8b" value="q8b" name="7">
+                    Einen Brief
+                </label>
+                <label for="q8c">
+                    <input type="radio" id="q8c" value="q8c" name="7">
+                    Inhalt, Sender und Empfänger
+                </label>
+                <p class="answers" id="a8"></p>
+            </div>
+            <div class="buttons">
+                <input id="submit-btn" type="submit" value="Senden"/>
+                <button id="clear-btn">Löschen</button>
+            </div>
+        </form>
+        <p id="correct-count"></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
